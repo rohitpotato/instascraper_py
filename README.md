@@ -38,17 +38,24 @@ class App:
 	def __init__(self, username = 'obiwan', password = 'hellothere', target_username = 'skywalker', path = 'users/rohit/desktop/instapics'):
  
  ```
+ 
+ <h2>Run:<h2>
+ 
+ ``` python insta.py ``` 
+ 
  <h2>Libraries Used</h2>
+ 
  ```
  BeautifulSoup
  Selenium
  Chrome Webdriver
  Requests
  ```
+ 
  Setting these up is fairly straight forward using pip.
  
- <h2>Note</h2>
+ <h2>Note:</h2>
  <b>Since Instagram changes around its structure, the application might stop working.
  For Handling that, try except blocks have been used to identify the cause of error. </b>
  
- <h2>Happy Scraping </h2>
+ <h2>Happy Scraping!</h2>
