@@ -92,9 +92,9 @@ def downloadCaptionsToExcel(driver, all_images, path):
 			caption = image['alt']
 		except Exception:
 			caption = 'No caption exists'
-			worksheet.write(row, 0, filename)
-			worksheet.write(row, 1, caption)
-			row += 1
+		worksheet.write(row, 0, filename)
+		worksheet.write(row, 1, caption)
+		row += 1
 	workbook.close()
 
 
